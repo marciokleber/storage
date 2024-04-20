@@ -5,3 +5,8 @@ server:
 spring:
   application:
     name: storage
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/storage
+    username: root
+    password: root
